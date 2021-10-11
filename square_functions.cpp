@@ -32,7 +32,7 @@ int itc_str(int num1, int num2, int num3)
 double itc_scir(int num1)
 {
     double res;
-    if (num1 > 0) {
+    if (num1 >= 0) {
         res = (num1 * num1) * 3.14;
         return res;
     }
